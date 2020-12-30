@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="CSS/style.css" type="text/css" rel="stylesheet">
+  <link href="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body style="margin: 0; background-color: #F0CCCB;">
+<!-- Nav HTML -->
+<div class="menu">
+  <span></span>
+</div>
+<div class="nav">
+    <div class="logo"><a href="index.html"><img src="Images/Logo.png"></a></div>
+    <div class="push">
+         <a href="projects.html">Projects</a>
+         <a href="about.html">About</a>
+         <a href="#">Contact</a>
+    </div>
+</div>
+<!-- Hero Section -->
+<div class="hero">
+    <h1>I'm Margaret Rose</h1>
+    <h4>While I may not have been born with a green thumb as my name implies, I was born with an innovative mind full of ideas and the ability to implement them accurately and creatively, utilizing my skills in research, design, and front-end development.</h4>
+    <div class="heroRight"><img src="Images/Margaret.jpg"></div>
+    <a href="/Files/Grayson_Resume_updated2020.pdf" target="_blank"><h3>My Resume</h3><img src="icons/arrow-right-solid.svg"></a>
+</div>
+</div>
+<!-- Info Section -->
+<section class="info">
+    <div id="roots">
+        <h2>My Roots</h2>
+        <p>After obtaining my BFA in Graphic Design along with a minor in Marketing, I worked as a graphic designer in various in-house and agency positions with a focus in marketing. However, I found my passion in User Experience design while working at the SaaS company, Enflux.</p>
+    </div>
+    <div id="goals">
+        <h2>My Goals</h2>
+        <p>I’m a multidisciplinary designer with a focus on visual and UX/UI currently located in San Antonio, TX but open to opportunities wherever the wind takes me. I’m fluent in English, with a basic knowledge of French. <br><br> I love working with people and companies who put humanity first. My goal is, eventually, to work for a company whom has values that align with mine. The work I do for that company will help the social good and move humanity forward.</p>
+    </div>
+    <div id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>Graphic Design</li>
+            <li>User Experience Design</li>
+            <li>User Interface Design</li>
+            <li>Branding and Identity</li>
+            <li>HTML and CSS</li>
+            <li>JavaScript and JQuery</li>
+            <li>Figma</li>
+            <li>Adobe XD</li>
+            <li>InVision</li>
+            <li>Adobe Creative Suite</li>
+            <li>Github</li>
+            <li>Visual Studio Code</li>
+            <li>Copywriting</li>
+            <li>Illustration and Lettering</li>
+        </ul>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<div class="footer">
+    <a href="#"><h4>Work with me</h4></a>
+    <div class="social">
+        <a href="https://www.linkedin.com/in/margaret-rose-grayson/" target="_blank"><img src="icons/linkedin-icon.jpg"></a>
+        <a href="https://www.behance.net/margaret-rose" target="_blank"><img src="icons/behance-icon.png"></a>
+        <button onclick="topFunction()" id="top" title="Go to top"><h4>Back to top</h4></button>
+    </div>  
+</div>
+
+<script>
+    //Get the button
+    var mybutton = document.getElementById("top");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>$(".menu").click(function() {
+    $(".menu").toggleClass("active");
+    $(".push").toggleClass("active");
+  });
+</script>
+</body>
+</html>
