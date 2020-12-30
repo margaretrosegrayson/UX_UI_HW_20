@@ -1,9 +1,5 @@
-body {
-  background-color: #F0CCCB;
-}
-
 .wrapper {
-  transition: background-color 1s ease;
+  background-color: #F0CCCB;
 }
 
 .section {
@@ -56,7 +52,7 @@ body {
 
 .hero {
   display: flex;
-  height: 800px;
+  height: 100vh;
   width: auto;
 }
 
@@ -133,8 +129,9 @@ body {
   grid-template-rows: 1fr;
   grid-template-areas:
   "ftc mockup-ftc";
-  height: 900px;
+  height: 100vh;
   width: auto;
+  background-color: #05CBFE;
 }
 
 .caseStudy-ACHR {
@@ -143,8 +140,9 @@ body {
   grid-template-rows: 1fr;
   grid-template-areas:
   "achr mockup-achr";
-  height: 900px;
+  height: 100vh;
   width: auto;
+  background-color: #A64E7E;
 }
 
 .caseStudy-Equil {
@@ -153,8 +151,9 @@ body {
   grid-template-rows: 1fr;
   grid-template-areas:
   "equil mockup-equil";
-  height: 900px;
+  height: 100vh;
   width: auto;
+  background-color: black;
 }
 
 #ftc {
@@ -271,6 +270,7 @@ body {
   width: auto;
   padding: 20px;
   display: flex;
+  background-color: #F0CCCB;
 }
 
 .footer h4 {
@@ -372,9 +372,10 @@ body {
   grid-template-rows: 1fr;
   grid-template-areas:
   "broadway mockup-broadway";
-  height: 900px;
+  height: 100vh;
   width: auto;
   margin: 0;
+  background-color: #D1B836;
 }
 
 .caseStudy-Silence {
@@ -383,9 +384,10 @@ body {
   grid-template-rows: 1fr;
   grid-template-areas:
   "silence mockup-silence";
-  height: 900px;
+  height: 100vh;
   width: auto;
   margin: 0;
+  background-color: darkgray;
 }
 
 #ftc {
@@ -514,7 +516,7 @@ body {
   grid-area: "mockup-broadway";
   width: 100%;
   height: 100%;
-  padding-top: 150px;
+  padding-top: 250px;
 }
 
 #broadway a {
@@ -548,7 +550,7 @@ body {
   grid-area: "mockup-silence";
   width: 100%;
   height: 100%;
-  padding: 0;
+  padding-top: 70px;
 }
 
 #silence a {
@@ -628,6 +630,52 @@ body {
 #goals p {
   height: auto;
   width: 50%
+}
+
+.wrapperFTC {
+  background-color: white;
+}
+
+.project {
+  height: 250px;
+  width: auto;
+  padding-top: 50px;
+}
+
+.team {
+  height: 200px;
+  width: auto;
+  padding-left: 50px;
+}
+
+.solution {
+  height: 200px;
+  width: auto;
+}
+
+.full {
+  height: 250px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.full a {
+  text-decoration: none;
+  color: black;
+}
+
+.full a:hover {
+  text-decoration: underline;
+}
+
+.full img {
+  height: 30px;
+  width: auto;
+}
+
+.problem {
+  height: 200px;
+  width: auto;
 }
 
 /* Responsiveness */
