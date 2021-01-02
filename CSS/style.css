@@ -266,7 +266,7 @@
 /* footer style */
 
 .footer {
-  height: 200px;
+  height: auto;
   width: auto;
   padding: 20px;
   display: flex;
@@ -294,26 +294,10 @@
   color: #404142;
 }
 
-.social {
+.footer img {
   display: flex;
+  align-items: center;
   justify-content: flex-end;
-  height: 100%;
-  width: 100%;
-  margin-right: 250px;
-}
-
-.social a {
-  display: flex;
-  justify-content: flex-end;
-  height: 100%;
-  width: 10%;
-  padding: 20px;
-}
-
-.social img {
-  height: 50px;
-  width: 50px;
-  padding: 20px;
 }
 
 /* Back to top styling */
@@ -328,7 +312,7 @@
   border: none;
   outline: none;
   background-color: #F0CCCB;
-  padding: 0 15px;
+  padding: 15px;
   color: #414042;
   border-radius: 5px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
