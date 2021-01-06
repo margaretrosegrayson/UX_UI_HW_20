@@ -263,6 +263,24 @@
   text-decoration: none;
 }
 
+/* button style */
+.btnFTC {
+  width: auto;
+  height: auto;
+  padding: 15px;
+  margin-left: 100px;
+  background-color: white;
+  border: none;
+  color: #404142;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btnFTC a:hover {
+  border: #F0CCCB;
+  
+}
+
 /* footer style */
 
 .footer {
